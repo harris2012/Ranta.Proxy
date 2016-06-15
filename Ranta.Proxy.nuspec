@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ranta.Proxy</id>
+    <version>1.0.0.0</version>
+    <title>Ranta.Proxy</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>https://github.com/ranta-library/Ranta.Proxy/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ranta-library/Ranta.Proxy</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/harris2012/Ranta/master/Ranta.Image/Icon/RantaIcon_150_150.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ranta.Proxy</description>
+    <releaseNotes>Ranta.Proxy</releaseNotes>
+    <copyright>Copyright ranta 2016</copyright>
+    <tags>Ranta Proxy</tags>
+    <dependencies>
+      <dependency id="Ranta.Utility" version="[1.0.0,)" />
+      <dependency id="Newtonsoft.Json" version="[6.0.8,)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Ranta.Proxy.Net40\bin\Release\Ranta.Proxy.dll" target="lib\net40" />
+    <file src="Ranta.Proxy.Net40\bin\Release\Ranta.Proxy.xml" target="lib\net40" />
+    <file src="Ranta.Proxy.Net45\bin\Release\Ranta.Proxy.dll" target="lib\net45" />
+    <file src="Ranta.Proxy.Net45\bin\Release\Ranta.Proxy.xml" target="lib\net45" />
+  </files>
+</package>
