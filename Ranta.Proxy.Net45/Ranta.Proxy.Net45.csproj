@@ -34,8 +34,8 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Ranta.Utility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=de363516f0e497fd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ranta.Utility.1.0.0.0\lib\net45\Ranta.Utility.dll</HintPath>
+    <Reference Include="Ranta.Utility, Version=1.1.0.0, Culture=neutral, PublicKeyToken=de363516f0e497fd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ranta.Utility.1.1.0.0\lib\net45\Ranta.Utility.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

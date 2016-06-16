@@ -124,119 +124,71 @@
             <returns>解密成功返回解密后的字符串,失败返源串</returns>
             <exception cref="T:System.ArgumentNullException">content为null或空</exception>
         </member>
+        <member name="T:Ranta.Utility.ContentType">
+            <summary>
+            Content-Type in Http Headers
+            </summary>
+        </member>
+        <member name="F:Ranta.Utility.ContentType.FormUrlEncoded">
+            <summary>
+            application/x-www-form-urlencoded
+            </summary>
+        </member>
+        <member name="F:Ranta.Utility.ContentType.FormData">
+            <summary>
+            multipart/form-data
+            </summary>
+        </member>
+        <member name="F:Ranta.Utility.ContentType.ApplicationJson">
+            <summary>
+            application/json
+            </summary>
+        </member>
+        <member name="F:Ranta.Utility.ContentType.TextXml">
+            <summary>
+            text/xml
+            </summary>
+        </member>
         <member name="T:Ranta.Utility.RestfulUtility">
             <summary>
             提供访问外部Restful接口的通用方法
             </summary>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String)">
             <summary>
-            从Restful接口获取string
+            提供访问外部Restful接口的通用方法
             </summary>
-            <param name="host">Restful接口地址</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String,System.Collections.Specialized.NameValueCollection)">
             <summary>
-            从Restful接口获取string
+            提供访问外部Restful接口的通用方法
             </summary>
-            <param name="host">Restful接口地址</param>
-            <param name="queryStringCollection">QueryString集合</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String,System.Text.Encoding)">
             <summary>
-            从Restful接口获取string
+            提供访问外部Restful接口的通用方法
             </summary>
-            <param name="host">Restful接口地址</param>
-            <param name="encoding">编码方式</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
             <summary>
-            从Restful接口获取string
+            提供访问外部Restful接口的通用方法
             </summary>
-            <param name="host">Restful接口地址</param>
-            <param name="queryStringCollection">QueryString集合</param>
-            <param name="encoding">编码方式</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String)">
             <summary>
-            从Restful接口获取json，并反序列化成指定类的实例
+            提供访问外部Restful接口的通用方法
             </summary>
-            <typeparam name="TResponse">返回对象类型</typeparam>
-            <param name="host">Restful接口地址</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String,System.Collections.Specialized.NameValueCollection)">
             <summary>
-            从Restful接口获取json，并反序列化成指定类的实例
+            提供访问外部Restful接口的通用方法
             </summary>
-            <typeparam name="TResponse">返回对象类型</typeparam>
-            <param name="host">Restful接口地址</param>
-            <param name="queryStringCollection">QueryString集合</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String,System.Text.Encoding)">
             <summary>
-            从Restful接口获取json，并反序列化成指定类的实例
+            提供访问外部Restful接口的通用方法
             </summary>
-            <typeparam name="TResponse">返回对象类型</typeparam>
-            <param name="host">Restful接口地址</param>
-            <param name="encoding">编码方式</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
             <summary>
-            从Restful接口获取json，并反序列化成指定类的实例
+            提供访问外部Restful接口的通用方法
             </summary>
-            <typeparam name="TResponse">返回对象类型</typeparam>
-            <param name="host">Restful接口地址</param>
-            <param name="queryStringCollection">QueryString集合</param>
-            <param name="encoding">编码方式</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String)">
             <summary>
-            从Restful接口获取byte[]
+            提供访问外部Restful接口的通用方法
             </summary>
-            <param name="host">Restful接口地址</param>
-            <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String,System.Collections.Specialized.NameValueCollection)">
-            <summary>
-            从Restful接口获取byte[]
-            </summary>
-            <param name="host">Restful接口地址</param>
-            <param name="queryStringCollection">QueryString集合</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String,System.Text.Encoding)">
-            <summary>
-            从Restful接口获取byte[]
-            </summary>
-            <param name="host">Restful接口地址</param>
-            <param name="encoding">编码方式</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
-            <summary>
-            从Restful接口获取byte[]
-            </summary>
-            <param name="host">Restful接口地址</param>
-            <param name="queryStringCollection">QueryString集合</param>
-            <param name="encoding">编码方式</param>
-            <returns>Restful接口返回的内容</returns>
-        </member>
-        <member name="M:Ranta.Utility.RestfulUtility.Post(System.String)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForString(System.String)">
             <summary>
             向Restful接口post空内容，读取返回的string
             </summary>
             <param name="host">Restful接口地址</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.Post(System.String,System.String)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForString(System.String,System.String)">
             <summary>
             向Restful接口post内容，读取返回的string
             </summary>
@@ -244,7 +196,16 @@
             <param name="content">向Restful接口提交的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.Post(System.String,System.String,System.Collections.Specialized.NameValueCollection)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForString(System.String,System.String,System.String)">
+            <summary>
+            向Restful接口post内容，读取返回的string
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <param name="contentType">Content-Type</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForString(System.String,System.String,System.Collections.Specialized.NameValueCollection)">
             <summary>
             向Restful接口post内容，读取返回的string
             </summary>
@@ -253,24 +214,25 @@
             <param name="content">向Restful接口提交的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.Post(System.String,System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForString(System.String,System.String,System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
             <summary>
             向Restful接口post内容，读取返回的string
             </summary>
             <param name="host">Restful接口地址</param>
             <param name="queryStringCollection">QueryString集合</param>
             <param name="content">向Restful接口提交的内容</param>
+            <param name="contentType">Content-Type</param>
             <param name="encoding">编码方式</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostForContent(System.String)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForXml``1(System.String)">
             <summary>
             向Restful接口post空内容，读取返回的string
             </summary>
             <param name="host">Restful接口地址</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostForContent(System.String,System.String)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForXml``1(System.String,System.String)">
             <summary>
             向Restful接口post byte[]，读取返回的byte[]
             </summary>
@@ -278,7 +240,16 @@
             <param name="content">向Restful接口提交的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostForContent(System.String,System.String,System.Collections.Specialized.NameValueCollection)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForXml``1(System.String,System.String,System.String)">
+            <summary>
+            向Restful接口post byte[]，读取返回的byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <param name="contentType">Content-Type</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForXml``1(System.String,System.String,System.Collections.Specialized.NameValueCollection)">
             <summary>
             向Restful接口post byte[]，读取返回的byte[]
             </summary>
@@ -287,57 +258,58 @@
             <param name="content">向Restful接口提交的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostForContent(System.String,System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForXml``1(System.String,System.String,System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
             <summary>
             向Restful接口post byte[]，读取返回的byte[]
             </summary>
             <param name="host">Restful接口地址</param>
             <param name="queryStringCollection">QueryString集合</param>
             <param name="content">向Restful接口提交的内容</param>
+            <param name="contentType">Content-Type</param>
             <param name="encoding">编码方式</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForJson``1(System.String)">
             <summary>
-            向Restful接口post对象，读取返回的对象
+            向Restful接口post空内容，读取返回的string
             </summary>
-            <typeparam name="TRequest">提交内容的类型</typeparam>
-            <typeparam name="TResponse">返回对象类型</typeparam>
             <param name="host">Restful接口地址</param>
-            <param name="request">请求的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object,System.Text.Encoding)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForJson``1(System.String,System.String)">
             <summary>
-            向Restful接口post对象，读取返回的对象
+            向Restful接口post byte[]，读取返回的byte[]
             </summary>
-            <typeparam name="TRequest">提交内容的类型</typeparam>
-            <typeparam name="TResponse">返回对象类型</typeparam>
             <param name="host">Restful接口地址</param>
-            <param name="request">请求的内容</param>
-            <param name="encoding">编码方式</param>
+            <param name="content">向Restful接口提交的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object,System.Collections.Specialized.NameValueCollection)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForJson``1(System.String,System.String,System.String)">
             <summary>
-            向Restful接口post对象，读取返回的对象
+            向Restful接口post byte[]，读取返回的byte[]
             </summary>
-            <typeparam name="TRequest">提交内容的类型</typeparam>
-            <typeparam name="TResponse">返回对象类型</typeparam>
             <param name="host">Restful接口地址</param>
-            <param name="request">请求的内容</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <param name="contentType">Content-Type</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForJson``1(System.String,System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            向Restful接口post byte[]，读取返回的byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
             <param name="queryStringCollection">QueryString集合</param>
+            <param name="content">向Restful接口提交的内容</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostForJson``1(System.String,System.String,System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
             <summary>
-            向Restful接口post json对象，读取返回的对象
+            向Restful接口post byte[]，读取返回的byte[]
             </summary>
-            <typeparam name="TRequest">提交内容的类型</typeparam>
-            <typeparam name="TResponse">返回对象类型</typeparam>
             <param name="host">Restful接口地址</param>
-            <param name="request">请求的内容</param>
             <param name="queryStringCollection">QueryString集合</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <param name="contentType">Content-Type</param>
             <param name="encoding">编码方式</param>
             <returns>Restful接口返回的内容</returns>
         </member>
@@ -385,16 +357,149 @@
             <param name="encoding">编码方式</param>
             <returns>Restful接口返回的内容</returns>
         </member>
-        <member name="M:Ranta.Utility.RestfulUtility.Post``2(System.String,System.Object,System.Collections.Specialized.NameValueCollection,Ranta.Utility.SerializeFormat,System.Text.Encoding)">
+        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object)">
             <summary>
-            向Restful接口post xml对象，读取返回的对象
+            向Restful接口post对象，读取返回的对象
+            </summary>
+            <typeparam name="TRequest">提交内容的类型</typeparam>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <param name="request">请求的内容</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object,System.Text.Encoding)">
+            <summary>
+            向Restful接口post对象，读取返回的对象
+            </summary>
+            <typeparam name="TRequest">提交内容的类型</typeparam>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <param name="request">请求的内容</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            向Restful接口post对象，读取返回的对象
             </summary>
             <typeparam name="TRequest">提交内容的类型</typeparam>
             <typeparam name="TResponse">返回对象类型</typeparam>
             <param name="host">Restful接口地址</param>
             <param name="request">请求的内容</param>
             <param name="queryStringCollection">QueryString集合</param>
-            <param name="format">序列化的格式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostJson``2(System.String,System.Object,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+            <summary>
+            向Restful接口post json对象，读取返回的对象
+            </summary>
+            <typeparam name="TRequest">提交内容的类型</typeparam>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <param name="request">请求的内容</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForBytes(System.String)">
+            <summary>
+            向Restful接口post空内容，读取返回的string
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForBytes(System.String,System.String)">
+            <summary>
+            向Restful接口post byte[]，读取返回的byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForBytes(System.String,System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            向Restful接口post byte[]，读取返回的byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.PostForBytes(System.String,System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+            <summary>
+            向Restful接口post byte[]，读取返回的byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <param name="content">向Restful接口提交的内容</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String)">
+            <summary>
+            从Restful接口获取byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            从Restful接口获取byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String,System.Text.Encoding)">
+            <summary>
+            从Restful接口获取byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetContent(System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+            <summary>
+            从Restful接口获取byte[]
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String)">
+            <summary>
+            从Restful接口获取json，并反序列化成指定类的实例
+            </summary>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            从Restful接口获取json，并反序列化成指定类的实例
+            </summary>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String,System.Text.Encoding)">
+            <summary>
+            从Restful接口获取json，并反序列化成指定类的实例
+            </summary>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetJson``1(System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+            <summary>
+            从Restful接口获取json，并反序列化成指定类的实例
+            </summary>
+            <typeparam name="TResponse">返回对象类型</typeparam>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
             <param name="encoding">编码方式</param>
             <returns>Restful接口返回的内容</returns>
         </member>
@@ -403,6 +508,38 @@
             
             </summary>
             <param name="queryStringCollection">QueryString集合</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String)">
+            <summary>
+            从Restful接口获取string
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            从Restful接口获取string
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String,System.Text.Encoding)">
+            <summary>
+            从Restful接口获取string
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="encoding">编码方式</param>
+            <returns>Restful接口返回的内容</returns>
+        </member>
+        <member name="M:Ranta.Utility.RestfulUtility.GetString(System.String,System.Collections.Specialized.NameValueCollection,System.Text.Encoding)">
+            <summary>
+            从Restful接口获取string
+            </summary>
+            <param name="host">Restful接口地址</param>
+            <param name="queryStringCollection">QueryString集合</param>
+            <param name="encoding">编码方式</param>
             <returns>Restful接口返回的内容</returns>
         </member>
         <member name="T:Ranta.Utility.RuntimeCache">
@@ -488,21 +625,6 @@
             <param name="absoluteExpiration">绝对过期时间</param>
             <param name="slidingExpiration">滑动过期时间</param>
             <returns></returns>
-        </member>
-        <member name="T:Ranta.Utility.SerializeFormat">
-            <summary>
-            序列化与反序列化格式
-            </summary>
-        </member>
-        <member name="F:Ranta.Utility.SerializeFormat.Xml">
-            <summary>
-            使用xml格式
-            </summary>
-        </member>
-        <member name="F:Ranta.Utility.SerializeFormat.Json">
-            <summary>
-            使用json格式
-            </summary>
         </member>
         <member name="T:Ranta.Utility.SqlProvider">
             <summary>
