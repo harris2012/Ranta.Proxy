@@ -11,5 +11,8 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ShortUrl\Dwz\DwzProxy.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ShortUrl\Dwz\DwzResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YouDaoTranslation\ErrorCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YouDaoTranslation\YouDaoTranslationResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YouDaoTranslation\YouDaoTranslationProxy.cs" />
   </ItemGroup>
 </Project>
