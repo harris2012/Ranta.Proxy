@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Ranat.Proxy.YouDaoTranslation
 {
+    /// <summary>
+    /// 有道翻译响应内容
+    /// </summary>
     public class YouDaoTranslationResponse
     {
         /// <summary>

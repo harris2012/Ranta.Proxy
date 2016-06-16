@@ -7,8 +7,8 @@
     <ProjectGuid>{6DA63982-FAE5-49DA-989D-34D1C6B1C309}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ranta.Proxy.Net40</RootNamespace>
-    <AssemblyName>Ranta.Proxy.Net40</AssemblyName>
+    <RootNamespace>Ranta.Proxy</RootNamespace>
+    <AssemblyName>Ranta.Proxy</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

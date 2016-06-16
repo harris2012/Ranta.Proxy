@@ -15,7 +15,7 @@
     <copyright>Copyright ranta 2016</copyright>
     <tags>Ranta Proxy</tags>
     <dependencies>
-      <dependency id="Ranta.Utility" version="[1.0.0,)" />
+      <dependency id="Ranta.Utility" version="[1.1.0,)" />
       <dependency id="Newtonsoft.Json" version="[6.0.8,)" />
     </dependencies>
   </metadata>
