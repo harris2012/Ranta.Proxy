@@ -10,9 +10,13 @@ namespace Ranta.Proxy.Test
         [TestMethod]
         public void TestGetShortUrl()
         {
-            var url = DwzProxy.GetShortUrl("https://www.baidu.com");
+            var url1 = DwzProxy.GetShortUrl("https://www.savory.cn");
 
-            var x = 0;
+            var url2 = DwzProxy.GetShortUrl("https://www.baidu.com");
+
+            Assert.IsTrue(string.IsNullOrEmpty(url1));
+
+            Assert.IsFalse(string.IsNullOrEmpty(url2));
         }
     }
 }

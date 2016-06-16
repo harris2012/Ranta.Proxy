@@ -9,6 +9,7 @@
     <Import_RootNamespace>Ranat.Proxy</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)ShortUrl\DwzProxy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ShortUrl\Dwz\DwzProxy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ShortUrl\Dwz\DwzResponse.cs" />
   </ItemGroup>
 </Project>
