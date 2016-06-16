@@ -17,13 +17,9 @@ namespace Ranat.Proxy.ShortUrl
         {
             string url = string.Empty;
 
-            //var dict = new Dictionary<string, string>();
-
-            //dict.Add("url", longUrl);
-
             string requestContent = string.Format("url={0}", longUrl);
 
-            var response = RestfulUtility.PostJson<string, DwzResponse>(DwzHost, requestContent);
+            var response = RestfulUtility.PostForJson<DwzResponse>(DwzHost, requestContent, ContentType.FormUrlEncoded);
 
             return url;
         }
